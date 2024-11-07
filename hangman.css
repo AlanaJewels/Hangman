@@ -1,0 +1,115 @@
+body {
+  background-image: url(472009.jpg.crdownload);
+  background-color: #eaac8b;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main {
+  max-width: 610px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  color: #892226;
+  border: 15px solid #e56b6f;
+  background-color: #6d597a;
+  border-radius: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-attachment: fixed;
+}
+
+h5 {
+  text-align: center;
+  color: #e56b6f;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.win {
+  color: white;
+  background-color: #eaac8b;
+}
+
+.loss {
+  color: white;
+  background-color: #892226;
+}
+
+#word {
+  letter-spacing: 10px;
+  text-align: center;
+  font-size: 24pt;
+  color: #e56b6f;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#guesses {
+  text-align: center;
+  font-size: 16pt;
+  color: #e56b6f;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.guess {
+  padding: 10px;
+  display: inline-block;
+  border: 2px solid #e56b6f;
+  border-radius: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+@media only screen and (min-device-width: 375px ) and (max-device-width: 667px) {
+    #guesses {
+    text-align: center;
+    font-size: 24pt;
+    color: #e56b6f;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .guess {
+    padding: 30px;
+    display: inline-block;
+    border: 2px solid #e56b6f;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+  }
+}
+
+#guessBox {
+    height: 60px;
+    border-radius: 10px;
+    padding-top: 5px;
+    font-size: 18pt;
+    width: 200px;
+    padding-left: 10px;
+}
+
+/* Buttons */
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #eaac8b;
+  background-color: #355070;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0 9px #6d597a;
+}
+
+.button:hover {background-color: #b56576}
+
+.button:active {
+  background-color: #af5165;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
